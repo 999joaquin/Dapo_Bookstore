@@ -40,32 +40,32 @@ OnlineBookstore/
 ### 2. Import file db_onlinebookstore.sql ke phpmyadmin
 
 ### 3. Buka vscode, buka 3 terminal trus start virtual enviroment d smua terminalny 
-    !! "venv/Scripts/activate" !!
+        "venv/Scripts/activate"
 
 ### 4. skrg install dependenciesny
-    !! "pip install -r requirements.txt" !!
+     "pip install -r requirements.txt"
 
 ### 5. cd ke server1, server2, server3 (d masing' terminal)
-    !! "cd server1" !!
+    "cd server1"
 
 ### 5. kalo udah tinggal run server1, server2, server3
-    !! "py run.py" !!
+    "py run.py"
 
 ### 6. kalo mau ngecek API bisa lewat browser ato postman kalo di postman
-    !! GET, 127.0.0.1:5001/books !!
-    !! GET, 127.0.0.1:5002/authors !!
+    GET, 127.0.0.1:5001/books
+    GET, 127.0.0.1:5002/authors
 
 ### 7. kalo mau ke UI tinggal buka browser trus ke
-    !! 127.0.0.1:5001 !!
+    127.0.0.1:5001
 
 ### 8. buat event-based pub/sub nya lu pada harus download RabbitMQ dulu dari 
-    !! https://www.rabbitmq.com/docs/install-windows !!
+    https://www.rabbitmq.com/docs/install-windows
 
 ### 9. kalo udah keinstall tinggal buka d windows lu pada trus search
-    !! RabbitMQ - Start service !!
+    RabbitMQ - Start service
 
 ### 10. cek rabbitMQ nya ke (loginnya guest:guest)
-    !! http://localhost:15672/ !!
+    http://localhost:15672/
 
 ### 11. cek ada connection ga kalo ada trus queue nya ada tulisan book_created berarti dah aman
 
