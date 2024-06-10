@@ -10,28 +10,28 @@ Project buat Online Bookstore untuk Tugas Besar IAE
 
 ## Structures
 
-OnlineBookstore/
-
-    server1/
-        run.py
-        templates/
-            index.html
-        static/
-            css/
-                styles.css
-            js/
-                scripts.js
+    OnlineBookstore/
+    
+        server1/
+            run.py
+            templates/
+                index.html
+            static/
+                css/
+                    styles.css
+                js/
+                    scripts.js
+            database.py
+    
+        server2/
+            run.py
+            database.py
+    
+        server3/
+            run.py
+    
         database.py
-
-    server2/
-        run.py
-        database.py
-
-    server3/
-        run.py
-
-    database.py
-    db_onlinebookstore.sql
+        db_onlinebookstore.sql
 
 # Step cara run
 
