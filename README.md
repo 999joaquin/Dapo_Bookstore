@@ -40,10 +40,10 @@ OnlineBookstore/
 ### 2. Import file db_onlinebookstore.sql ke phpmyadmin
 
 ### 3. Buka vscode, buka 3 terminal trus start virtual enviroment d smua terminalny 
-        "venv/Scripts/activate"
+    "venv/Scripts/activate"
 
 ### 4. skrg install dependenciesny
-     "pip install -r requirements.txt"
+    "pip install -r requirements.txt"
 
 ### 5. cd ke server1, server2, server3 (d masing' terminal)
     "cd server1"
