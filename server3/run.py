@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify, make_response
+from flask_cors import CORS
 import requests
 import pika
 import threading
@@ -6,6 +7,8 @@ import json
 from database import insert_data
 
 app = Flask(__name__)
+CORS(app)
+
 book_service = "http://127.0.0.1:5001"
 author_service = "http://127.0.0.1:5002"
 
@@ -48,7 +51,7 @@ def create_order():
         return make_response(jsonify({"status": 404, "message": "Author not found"}))
     author_data = author_response.json()
     
-    total_price = int(data_post["quantity"]) * 100  # Mock price calculation
+    total_price = int(data_post["quantity"]) * 100
     order_details = {
         "book": book_data,
         "author": author_data,
@@ -56,7 +59,6 @@ def create_order():
         "total_price": total_price
     }
     
-    # Insert the new order into the database
     new_order = {
         "book_id": book_id,
         "quantity": data_post["quantity"],

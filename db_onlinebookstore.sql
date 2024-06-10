@@ -26,5 +26,5 @@ CREATE TABLE orders (
     FOREIGN KEY (book_id) REFERENCES books(id)
 );
 
-INSERT INTO authors (name) VALUES ('Author One'), ('Author Two');
-INSERT INTO books (title, author_id) VALUES ('Book One', 1), ('Book Two', 2);
+INSERT INTO authors (name) VALUES ('Daffa'), ('Joaquin');
+INSERT INTO books (title, author_id) VALUES ('Buku CRYPTOCURRENCY & BLOCKCHAIN', 1), ('Buku Uang TTT', 2);
