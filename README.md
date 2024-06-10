@@ -1,12 +1,12 @@
-# Online Bookstore Microservices
+# Dapo Bookstore Microservices
 
 Project buat Online Bookstore untuk Tugas Besar IAE
 
 ## Needs
 
-1. **Python**[python.org](https://www.python.org/).
-2. **MySQL**[XAMPP](localhost/phpmyadmin)
-3. **RabbitMQ**[rabbitmq.com](https://www.rabbitmq.com/).
+1. **Python** [python.org](https://www.python.org/).
+2. **MySQL** [phpmyadmin](localhost/phpmyadmin)
+3. **RabbitMQ** [rabbitmq.com](https://www.rabbitmq.com/).
 
 ## Structures
 
@@ -15,12 +15,12 @@ OnlineBookstore/
     server1/
         run.py
         templates/
-        index.html
+            index.html
         static/
-        css/
-        styles.css
-        js/
-        scripts.js
+            css/
+                styles.css
+            js/
+                scripts.js
         database.py
 
     server2/
@@ -68,3 +68,5 @@ OnlineBookstore/
     !! http://localhost:15672/ !!
 
 # 11. cek ada connection ga kalo ada trus queue nya ada tulisan book_created berarti dah aman
+
+# beres.
