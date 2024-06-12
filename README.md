@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Dapo Bookstore Microservices
 
 Project buat Online Bookstore untuk Tugas Besar IAE
@@ -70,3 +71,6 @@ Project buat Online Bookstore untuk Tugas Besar IAE
 ### 11. cek ada connection ga kalo ada trus queue nya ada tulisan book_created berarti dah aman
 
 # beres.
+=======
+# Dapo_Bookstore
+>>>>>>> bc9f52d4b1f4b39a067cf44befcd1e4dc67be4c2
